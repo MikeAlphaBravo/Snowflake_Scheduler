@@ -1,5 +1,7 @@
 # _Snowflake Scheduler_
 
+![alt text](/public/homepage.png)
+
 #### _Implementing Snowflake Scheduler in Ruby, 10.05.2017_
 
 #### By _Margaret Berry, Michael Brooks, Dan Kiss, and Dan Garcia_
@@ -45,39 +47,42 @@ These instructions will get you a copy of the project up and running on your loc
 
 Open terminal on your computer,
 Navigate to the folder you would like to clone the project into:
-```
-cd desktop
-```
+
+`cd desktop`
+
 and run:
 
-```
-git clone https://github.com/margaret85/snowflake_scheduler
-```
+`git clone https://github.com/margaret85/snowflake_scheduler`
+
 Navigate into project folder with:
-```
-cd snowflake_scheduler
-```
+
+`cd snowflake_scheduler`
+
 Run:
-```
-bundle
-```
-```
-rake db:create
-```
-```
-rake db:migrate
-```
+
+`bundle`
+
+`rake db:create`
+
+`rake db:migrate`
+
 If you have Atom installed and want to see the project structure run:
-```
-atom .
-```
-Otherwise...
-```
-ruby app.rb
-```
+
+`atom .` Otherwise...`ruby app.rb`to run server
+
 Nativate in your browser to http://localhost:4567/
 
-![Database Architecture](https://github.com/margaret85/snowflake_scheduler/blob/master/public/DatabaseArchitecture.png)
+## Database Architecture:
+
+![alt text](/public/DatabaseArchitecture.png)
+
+## User Experience:
+
+![alt text](/public/userexperience.png)
+
+![alt text](/public/edit.png)
+
+![alt text](/public/editgroup.png)
 
 ## Known Bugs
 
